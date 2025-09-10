@@ -5,11 +5,11 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: deepskyblue;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 h1{
-    color: lightgoldenrodyellow;
+    color: black;
     text-align: center;
     border-bottom: 2px solid #2e8b57;
     padding-bottom: 10px;
