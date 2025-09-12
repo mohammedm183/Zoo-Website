@@ -12,14 +12,6 @@ header {
   text-align: center;
 }
 
-.card{
-  background-color: lightblue;
-  width: 300px;
-  padding: 5px;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
 a.no-style{
   text-decoration: none;
   color: black;
