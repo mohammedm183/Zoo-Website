@@ -6,6 +6,10 @@ img {
   height: 500px;
 }
 
+header {
+  text-align: center;
+}
+
 .card{
   background-color: lightblue;
   width: 300px;
@@ -22,9 +26,8 @@ a.no-style{
 .external-link{
   position: fixed;
   top: 0;
+  left: 50%;
 }
-
-
 /* sjjdjj */
 
 .card {
