@@ -1,7 +1,10 @@
 body {
+  /* min-height: 100vh; */
+  /* min-width: 100vw; */
   font-family: sans-serif;
   background-color: #f2fff3;
   color: #001701;
+  /* background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); */
 }
 
 img {
@@ -17,11 +20,7 @@ header {
 h1 {
   font-size: 2.5em;
   text-transform: uppercase;
-}
-
-a.no-style {
-  text-decoration: none;
-  color: black;
+  margin-bottom: 0;
 }
 
 /* .external-link{
@@ -34,10 +33,20 @@ a.no-style {
 .card-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .card {
   display: block;
+
+  width: 300px;
+  padding: 16px;
+  margin: 12px 0;
+
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -45,14 +54,6 @@ a.no-style {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-
-  /*  */
-  padding: 16px;
-  margin: 12px 0;
-  text-decoration: none;
-  color: inherit;
-  width: 300px;
-
 }
 
 .cards {
@@ -66,4 +67,16 @@ a.no-style {
   margin: 12px 0;
   text-decoration: none;
   color: inherit;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+main p {
+  font-size: 1.1em;
+  line-height: 1.35;
+  text-align: justify;
+  /* margin-top: 20px; */
 }
