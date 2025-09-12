@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  background-color: #f2fff3;
+  color: #001701;
 }
 
 img {
@@ -12,7 +14,12 @@ header {
   text-align: center;
 }
 
-a.no-style{
+h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+a.no-style {
   text-decoration: none;
   color: black;
 }
@@ -24,8 +31,33 @@ a.no-style{
 } */
 /* sjjdjj */
 
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
-  display: block;               /* Make the entire card clickable */
+  display: block;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  /*  */
+  padding: 16px;
+  margin: 12px 0;
+  text-decoration: none;
+  color: inherit;
+  width: 300px;
+
+}
+
+.cards {
+  display: block;
+  /* Make the entire card clickable */
   background: #e6fbff;
   border-style: solid;
   border-width: 1.5px;
