@@ -4,12 +4,9 @@
 }
 
 body {
-  /* min-height: 100vh; */
-  /* min-width: 100vw; */
   font-family: sans-serif;
   background-color: #f2fff3;
   color: #001701;
-  /* background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%); */
 }
 
 img {
