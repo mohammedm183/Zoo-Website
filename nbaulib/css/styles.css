@@ -25,12 +25,9 @@ h1 {
   margin-bottom: 0;
 }
 
-/* .external-link{
-  position: fixed;
-  top: 0;
-  left: 50%;
-} */
-/* sjjdjj */
+.external-link a{
+  color: #003e1f;
+}
 
 .card-section {
   display: flex;
