@@ -1,18 +1,36 @@
 :root {
   --accent1: #b2f7c5;
   --accent2: #8de4aa;
+  --font: #003e1f;
 }
 
 body {
   font-family: sans-serif;
   background-color: #f2fff3;
-  color: #001701;
+  color: var(--font);
 }
 
-img {
-  height: 25em;
-  margin: auto;
-  display: block;
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 16px;
+  background-color: var(--accent1);
+  border-style: inset;
+  color: inherit;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: var(--accent2);
+  border-style: outset;
 }
 
 header {
@@ -25,8 +43,27 @@ h1 {
   margin-bottom: 0;
 }
 
-.external-link a{
-  color: #003e1f;
+img {
+  height: 25em;
+  margin: auto;
+  display: block;
+}
+
+main a:hover{
+  border-style: outset;
+  background-color: var(--accent2);
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+main p {
+  font-size: 1.1em;
+  line-height: 1.35;
+  text-align: justify;
+  /* margin-top: 20px; */
 }
 
 .card-section {
@@ -55,41 +92,6 @@ h1 {
   text-align: center;
 }
 
-main a:hover{
-  border-style: outset;
-  background-color: var(--accent2);
-}
-
-main {
-  max-width: 800px;
-  margin: 40px auto;
-}
-
-main p {
-  font-size: 1.1em;
-  line-height: 1.35;
-  text-align: justify;
-  /* margin-top: 20px; */
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin: 20px 0;
-}
-
-nav a {
-  text-decoration: none;
-  padding: 10px 16px;
-  background-color: var(--accent1);
-  border-style: inset;
-  color: #003e1f;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background-color: var(--accent2);
-  border-style: outset;
+.external-link a{
+  color: inherit;
 }
